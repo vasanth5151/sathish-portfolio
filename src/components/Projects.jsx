@@ -27,7 +27,7 @@ const Projects = () => {
                     letterSpacing: '-0.04em',
                     marginBottom: 12,
                 }}>
-                    Selected Works
+                    Designing works
                 </h2>
                 <p style={{ color: '#777', fontSize: '1rem', maxWidth: 460, margin: '0 auto' }}>
                     A collection of my recent video editing and post-production projects.
