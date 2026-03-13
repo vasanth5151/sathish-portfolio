@@ -6,7 +6,7 @@ const navLinks = [
     { name: 'Home', to: 'home' },
     { name: 'Services', to: 'services' },
     { name: 'About', to: 'about' },
-    { name: 'Projects', to: 'projects' },
+    { name: 'Projects', to: 'videoedits' },
     { name: 'Contact', to: 'contact' },
 ];
 

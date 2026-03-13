@@ -17,8 +17,8 @@ function App() {
             <ClientMarquee />
             <Services />
             <About />
-            <Projects />
             <VideoEdits />
+            <Projects />
             <Contact />
             <Footer />
         </div>
