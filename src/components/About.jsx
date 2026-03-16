@@ -63,7 +63,7 @@ const About = () => {
                     >
                         <div className="aspect-[4/5] rounded-3xl overflow-hidden relative border border-black/10 group shadow-lg">
                             <img
-                                src="sathish-image1.png"
+                                src="sathish-about.webp"
                                 alt="Video Editor Working"
                                 className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                             />

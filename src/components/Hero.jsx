@@ -20,6 +20,7 @@ const Hero = () => {
                 overflow: 'hidden',
                 position: 'relative',
                 minHeight: '100vh',
+                paddingBottom: '30px', // Added padding to avoid clipping by rounded corners
                 display: 'flex',
                 flexDirection: 'column',
             }}
@@ -50,16 +51,18 @@ const Hero = () => {
                 <div style={{
                     position: 'absolute', inset: 0,
                     background: 'linear-gradient(to right, #0d0d0d 18%, transparent 50%, #0d0d0d 82%)',
+                    zIndex: 1
                 }} />
                 {/* Top fade */}
                 <div style={{
                     position: 'absolute', inset: 0,
                     background: 'linear-gradient(to bottom, #0d0d0d 0%, transparent 20%, transparent 70%, #0d0d0d 100%)',
+                    zIndex: 1
                 }} />
             </div>
 
             {/* ── Main content (grows to fill space) ── */}
-            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', paddingTop: '7rem', position: 'relative', zIndex: 1 }}>
+            <div style={{ flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'center', paddingTop: '7rem', position: 'relative', zIndex: 2 }}>
                 <div className="max-w-7xl mx-auto w-full px-6 md:px-12 flex flex-col md:flex-row md:items-center justify-between gap-6">
 
                     {/* LEFT — role + giant title */}
@@ -136,7 +139,12 @@ const Hero = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
-                style={{ borderTop: '1px solid rgba(255,255,255,0.07)', padding: '24px 0' }}
+                style={{
+                    borderTop: '1px solid rgba(255,255,255,0.07)',
+                    padding: '24px 0',
+                    position: 'relative',
+                    zIndex: 3
+                }}
             >
                 <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-2 md:grid-cols-4 gap-6">
                     {services.map((s) => (
