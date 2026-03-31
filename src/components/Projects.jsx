@@ -1,14 +1,16 @@
 import React from 'react';
 
 const images = [
-    { src: '/proj4.png', alt: 'Volcanic Drama' },
-    { src: '/proj2.png', alt: 'Fashion Edit' },
-    { src: '/proj6.png', alt: 'Forest Doc' },
-    { src: '/proj1.png', alt: 'Studio Timeline' },
-    { src: '/proj5.png', alt: 'Concert' },
-    { src: '/proj3.png', alt: 'Product Commercial' },
-    { src: '/sb1.png', alt: 'Video Editing' },
-    { src: '/sb2.png', alt: 'Color Grading' },
+    { src: '/Srinidhi & Leelaram.png', alt: 'Srinidhi & Leelaram Wedding' },
+    { src: '/Sri Suvetha_Jaya Easwar KS YT Thumbnail.png', alt: 'Sri Suvetha & Jaya Easwar Wedding' },
+    { src: '/Rashmitha B_Nishanth Ethiraj THUMBNAIL.png', alt: 'Rashmitha & Nishanth Wedding' },
+    { src: '/Sowmiya & Vasanth Thumbnail.png', alt: 'Sowmiya & Vasanth Wedding' },
+    { src: '/Gravitians day insta thumbnail.png', alt: 'Gravitians Day 2025' },
+    { src: '/YT Thumbnail.png', alt: 'YouTube Thumbnail' },
+    { src: '/Valentines day thumbnail.png', alt: 'Valentines Day' },
+    { src: '/Alpha design poster -19-02.png', alt: 'Alpha Design Poster' },
+    { src: '/MAPC Admission 12-03.png', alt: 'MAPC Admission' },
+    { src: '/Vermilion Curousel -2 Poster -15-11.png', alt: 'Vermilion Carousel' },
 ];
 
 // Duplicate for seamless loop
